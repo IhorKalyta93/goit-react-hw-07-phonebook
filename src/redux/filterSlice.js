@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-
 const filterSlice = createSlice({
   name: 'phonebook',
   initialState: '',
@@ -9,6 +8,5 @@ const filterSlice = createSlice({
     },
   },
 });
-
 export const { filterContacts } = filterSlice.actions;
 export const filtersReducer = filterSlice.reducer;
